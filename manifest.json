@@ -1,0 +1,10 @@
+{
+  "name": "Hide Read Articles",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Extension to hide already read articles",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
